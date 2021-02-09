@@ -1,5 +1,6 @@
 # ProjectGatorette
 Project Gatorette will be an informational website regarding the University of Florida's baton team: the Gatorettes
+
 Features:
 - Front page with the Gator logo and a horizontal menu to go to other pages
     - Will have an orange and blue color theme and include a picture of the team
