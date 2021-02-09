@@ -1,0 +1,96 @@
+
+<!-- CSS - Cascading Style Sheets -->
+<style> 
+.button{
+  text-decoration: none;
+  color: #fff;
+  background-color: #4c87b5;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button:hover{
+  background-color: #4c87b5;
+}
+
+.header{
+  background-color: #f37021;
+}
+
+.logo{
+  max-width: 100px;
+}
+
+.left-logo{
+  width: 20%;
+}
+
+.right-menu{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 25px;
+}
+
+.header{
+  display: flex;
+}
+
+.main{
+  background-image: url('https://scontent.fmia1-1.fna.fbcdn.net/v/t1.15752-9/144581134_423529818975341_5251834344032279912_n.jpg?_nc_cat=103&ccb=2&_nc_sid=ae9488&_nc_ohc=hZrWe7UoVT0AX9uEnS8&_nc_oc=AQnchLJVKSCbB2YIfi6I-L7O2eyzO4ani-1wmPwt6Z7naAVMT0GWZ4R6-PbEJ0TcSSo&_nc_ht=scontent.fmia1-1.fna&oh=89575c68ecd9f3e7ffdba2fea06dfb36&oe=603C0ECD');
+  background-position-y: 55%;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width:1024px){
+  .main{
+    background-position-y: 55%;
+  }
+}
+
+@media screen and (max-width:900px){
+  .main{
+    background-position-y: 55%;
+  }
+}
+
+.bottomhalf{
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  background-color: #C0C0C0; 
+}
+
+.bottomhalf .title{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 100px;
+  color: #f37021;
+  font-style: bold;
+}
+</style>
+
+<!-- HTML -->
+<div class="main">
+  <div class="header">
+    <div class="left-logo">
+      <img class="logo" src="https://scontent.fmia1-1.fna.fbcdn.net/v/t1.15752-9/144695956_423290242308822_2885826619133513978_n.jpg?_nc_cat=106&ccb=2&_nc_sid=ae9488&_nc_ohc=THNDGKXW9fsAX9vDI0a&_nc_ht=scontent.fmia1-1.fna&oh=700f3421d00aeaf74c901d351e0eaec2&oe=603C1892" alt="">
+    </div>
+    <div class="right-menu">
+      <a class="button" href="#">About Us</a>
+      <a class="button" href="#">Members</a>
+      <a class="button" href="#">Blog</a>
+      <a class="button" href="#">Info</a>
+      <a class="button" href="#">Contact Us</a>
+    </div>
+  </div>
+</div>
+
+<div class="bottomhalf">
+  <h1 class="title">University of Florida <br> Gatorettes</h1>
+</div>
