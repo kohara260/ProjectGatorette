@@ -103,7 +103,9 @@ describe('UF Directory Server Unit Tests', function() {
 
 
         // For the last assertion, check that the string output is the same message server.js outputs when a listing is missing:
-        console.log(body);
+        request.get('http://localhost:8080/listings/pizzarella', function(err, resp, b) {
+		deepEqual(b, body).should.equal(true);
+	});
         // Finally, call "done();" to finish!
         
         done();
