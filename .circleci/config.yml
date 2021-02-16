@@ -10,8 +10,8 @@ jobs:
 
                 steps:
                         - checkout
+                        - run: cd TDD_Assignment
                         - run: npm install mocha
                         - run: alias mocha='./node_modules/.bin/_mocha'
                         - run: npm install
-                        - run: npm init -y
                         - run: npm start 
