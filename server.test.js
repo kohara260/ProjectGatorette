@@ -100,9 +100,10 @@ describe('UF Directory Server Unit Tests', function() {
       	// First, assert that the status code is what it's supposed to be (exactly 404) if the listing were missing.
 
         should(response.statusCode).be.exactly(404);
-        
+
 
         // For the last assertion, check that the string output is the same message server.js outputs when a listing is missing:
+        console.log(body);
         // Finally, call "done();" to finish!
         
         done();
