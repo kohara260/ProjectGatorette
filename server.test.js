@@ -99,8 +99,8 @@ describe('UF Directory Server Unit Tests', function() {
       request.get('http://localhost:8080/pizza', function(error, response, body) {
       	// First, assert that the status code is what it's supposed to be (exactly 404) if the listing were missing.
 
-        console.log(error);
-        console.log(response);
+        should(response.statusCode).be.exactly(404);
+        
 
         // For the last assertion, check that the string output is the same message server.js outputs when a listing is missing:
         // Finally, call "done();" to finish!
