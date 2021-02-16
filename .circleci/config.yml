@@ -1,14 +1,22 @@
 version: 2.1
 
 orbs: 
-    win: circleci/windows@2.2.0
-
+        node: circleci/node@1.1.0
 jobs:
         build:
                 executor:
-                        name: win/default
-                        size: "medium"
+                        name: node/default
+                        tag: '10.4'
 
                 steps:
                         - checkout
-                        - run: Write-Host 'Hello, Windows'
+                        - node/with-cache:
+                                steps:
+                                        - run: npm install mocha
+                                        - run: alias mocha='./node_modules/.bin/_mocha'
+                                        - run: npm install
+                        - run:
+                                command: npm start
+                                background: true
+                        - run: sleep 5
+                        - run: npm run test
