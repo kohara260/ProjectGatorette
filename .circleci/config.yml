@@ -12,3 +12,4 @@ jobs:
                         - checkout
                         - run: ls ../ -alt
                         - run: ls -alt
+                        - run: pwd
