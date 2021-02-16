@@ -10,6 +10,4 @@ jobs:
 
                 steps:
                         - checkout
-                        - run: ls ../ -alt
-                        - run: ls -alt
-                        - run: pwd
+                        - run: npm init
