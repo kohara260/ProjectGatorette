@@ -10,7 +10,7 @@ jobs:
 
                 steps:
                         - checkout
-                        - run: npm -g install mocha
+                        - run: npm install mocha
                         - run: alias mocha='./node_modules/.bin/_mocha'
                         - run: npm install
                         - run: npm start
