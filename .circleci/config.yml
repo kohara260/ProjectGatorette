@@ -18,6 +18,6 @@ jobs:
                         - run:
                                 command: cd nextjs-blog/; npm run dev
                                 background: true
-                        - run: sleep 100
+                        - run: sleep 25
                         - run: cd nextjs-blog; npm run test
 
