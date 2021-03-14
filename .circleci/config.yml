@@ -11,6 +11,7 @@ jobs:
                         
                 steps:
                         - checkout
+                        - run : cd nextjs-blog
                         - run: npm install mocha
                         - run: alias mocha='./node_modules/.bin/_mocha'
                         - run: npm install
