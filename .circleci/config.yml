@@ -15,6 +15,7 @@ jobs:
                         - run: npm install mocha
                         - run: alias mocha='./node_modules/.bin/_mocha'
                         - run: npm install
+                        - run : ls
                         - run:
                                 command: npm run dev
                                 background: true
