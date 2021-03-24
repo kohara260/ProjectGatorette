@@ -3,13 +3,27 @@ import Link from 'next/link'
 export default function LoggedHome() {
   return (
     <div className="container">
-        <div className="left-logo">
-            <img className="logo" className="logo" src="/logo.jpg" alt=""></img>
-            <Link href="/"><a className="button">Sign Out</a></Link>
+        <div className="main">
+            <div className="left-logo">
+                <img className="logo" className="logo" src="/logo.jpg" alt=""></img>
+                <Link href="/"><a className="button">Sign Out</a></Link>
+            </div>
+            <h1 className="title">Welcome</h1>
         </div>
-        <h1 className="title">Welcome</h1>
 
         <style jsx>{`
+
+            .main{
+                position: absolute;
+                top: 0;
+                bottom: 50%;
+                left: 0;
+                right: 0;
+                height: 100vh;
+                width: 100%;
+                background-color: #FFF8DC;
+            }
+
             .button{
                 text-decoration: none;
                 color: #fff;
@@ -42,6 +56,8 @@ export default function LoggedHome() {
                 font-size: 45px;
                 color: #f37021;
                 margin: 10px auto;
+                -webkit-text-stroke-width: 0.5px;
+                -webkit-text-stroke-color: black;
             }
 
         `}</style>
