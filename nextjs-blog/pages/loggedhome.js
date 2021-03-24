@@ -9,6 +9,14 @@ export default function LoggedHome() {
                 <Link href="/"><a className="button">Sign Out</a></Link>
             </div>
             <h1 className="title">Welcome</h1>
+            <div className="holdsplit">
+                <div className="flex-child tricks"> 
+                    Posts and Tricks Blog
+                </div>
+                <div className="flex-child schedule">
+                    Practice Schedule and Sign Up
+                </div>
+            </div>
         </div>
 
         <style jsx>{`
@@ -58,6 +66,27 @@ export default function LoggedHome() {
                 margin: 10px auto;
                 -webkit-text-stroke-width: 0.5px;
                 -webkit-text-stroke-color: black;
+            }
+
+            .holdsplit{
+                display: flex;
+                position: relative;
+                top: 10%;
+            }
+
+            .flex-child{
+                flex: 1;
+                border: 2px solid blue;
+                text-align: center;
+            }
+
+            .tricks{
+                margin-left: 50px;
+                margin-right: 20px;
+            }
+
+            .schedule{
+                margin-right: 50px;
             }
 
         `}</style>
