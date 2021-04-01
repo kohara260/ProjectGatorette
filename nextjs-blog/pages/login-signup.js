@@ -78,36 +78,31 @@ export default function Login() {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            border-style: solid; 
         }
 
         .logo{
             max-width: 75px;
-          }
+        }
 
         .left-logo{
             position: fixed;
             top: 0;
             left: 0;
-            } 
+        } 
 
         .content-tabs-row{
             padding: 0 50px; 
-            padding-top: 20px; 
-            border-style: solid; 
-            border-bottom-style: none;         
+            padding-top: 20px;         
         }
 
         .content-tab{
             display: none;
             padding: 0 50px;
-            border-style: solid; 
-            border-top-style: none;
         }
 
         .content-tab.active{
             display: block;
-            border-style: solid; 
-            border-top-style: none;
         }
 
         .form{
@@ -120,8 +115,7 @@ export default function Login() {
         }
 
         label, input{
-            width: 80%;
-            // margin: auto;
+            width: 99%;
         }
 
         input[type='submit']{
