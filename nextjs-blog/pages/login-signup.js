@@ -91,16 +91,23 @@ export default function Login() {
             } 
 
         .content-tabs-row{
-            padding: 0 50px;
+            padding: 0 50px; 
+            padding-top: 20px; 
+            border-style: solid; 
+            border-bottom-style: none;         
         }
 
         .content-tab{
             display: none;
             padding: 0 50px;
+            border-style: solid; 
+            border-top-style: none;
         }
 
         .content-tab.active{
             display: block;
+            border-style: solid; 
+            border-top-style: none;
         }
 
         .form{
