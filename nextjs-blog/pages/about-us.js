@@ -18,10 +18,10 @@ export default function AboutUs() {
             .main{
                 position: absolute;
                 top: 0;
-                bottom: 50%;
+                bottom: 60%;
                 left: 0;
                 right: 0;
-                height: 60vh;
+                height: 45vh;
                 width: 100%;
                 background-color: #E3E4FA;
             }
@@ -55,22 +55,22 @@ export default function AboutUs() {
 
             .bottomhalf{
                 background-image: url("/aboutus_pic.jpg");
-                height: 50vh;
+                height: 55vh;
                 background-size: cover;
-                background-position-y: 40%;
+                background-position-y: 42%;
                 background-repeat: no-repeat;
-                margin-top: 60vh;
+                margin-top: 45vh;
               }
               
               @media screen and (max-width:1024px){
                 .bottomhalf{
-                  background-position-y: 40%;
+                  background-position-y: 42%;
                 }
               }
               
               @media screen and (max-width:900px){
                 .bottomhalf{
-                  background-position-y: 40%;
+                  background-position-y: 61%;
                 }
               }
 
