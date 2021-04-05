@@ -48,7 +48,7 @@ export default function LoggedHome() {
             }
 
             .logo{
-                max-width: 75px;
+                max-width: 80px;
             }
             
             .left-logo{

@@ -12,22 +12,22 @@ export default function OurTeam() {
             <div className="mems"> 
                 <div className="member">
                     <img src="/jl.jpg"></img>
-                    <p className="name">Julia-Love</p>
+                    <p className="cap-name">Julia-Love</p>
                     <p>Captain</p>
                 </div>
                 <div className="member">
                     <img src="/tara.jpg"></img>
-                    <p className="name">Tara</p>
+                    <p className="cap-name">Tara</p>
                     <p>Captain</p>
                 </div>
                 <div className="member">
                     <img src="/pay.jpg"></img>
-                    <p className="name">Payton</p>
+                    <p className="cap-name">Payton</p>
                     <p>Captain</p>
                 </div>
                 <div className="member">
                     <img src="/care.jpg"></img>
-                    <p className="name">Caroline</p>
+                    <p className="cap-name">Caroline</p>
                     <p>Captain</p>
                 </div>
                 <div className="member">
@@ -82,11 +82,11 @@ export default function OurTeam() {
                 </div>
                 <div className="member">
                     <img src="/julia.jpg"></img>
-                    <p className="name">Julia</p>
+                    <p className="bot-name">Julia</p>
                 </div>
                 <div className="member">
                     <img src="/mika.jpg"></img>
-                    <p className="name">Mika</p>
+                    <p className="bot-name">Mika</p>
                 </div>
                 <div className="member">
                 </div>
@@ -120,7 +120,7 @@ export default function OurTeam() {
                 text-align: center;
                 margin-left: auto;
                 margin-right: auto;
-                font-size: 22px;
+                font-size: 26px;
                 color: #f37021;
                 margin: 0 auto;
                 -webkit-text-stroke-width: 0.5px;
@@ -128,7 +128,7 @@ export default function OurTeam() {
             }
 
             .logo{
-                max-width: 75px;
+                max-width: 80px;
             }
             
             .left-logo{
@@ -151,14 +151,27 @@ export default function OurTeam() {
                 margin-top: 0px;
             }
 
-            .name{
+            .cap-name{
                 font-size: 20px;
                 margin-bottom: 0px;
             }
 
+            .name{
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+
+            .bot-name{
+                font-size: 20px;
+                margin-bottom: 35px;
+            }
+
             .member img{
                 max-width: 150px;
-                margin-top: 25px;
+                margin-top: 30px;
+                border-style: double;
+                border-width: thick;
+                border-color: #f37021;
             }
 
         `}</style>

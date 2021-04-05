@@ -55,7 +55,7 @@ export default function Home() {
         }
 
         .logo{
-          max-width: 75px;
+          max-width: 80px;
         }
         
         .left-logo{
@@ -76,7 +76,7 @@ export default function Home() {
         
         .main{
           background-image: url("/homepage_pic.jpg");
-          background-position-y: 55%;
+          background-position-y: 58%;
           height: 50vh;
           background-size: cover;
           background-repeat: no-repeat;
@@ -85,13 +85,13 @@ export default function Home() {
         
         @media screen and (max-width:1024px){
           .main{
-            background-position-y: 55%;
+            background-position-y: 58%;
           }
         }
         
         @media screen and (max-width:900px){
           .main{
-            background-position-y: 55%;
+            background-position-y: 58%;
           }
         }
         

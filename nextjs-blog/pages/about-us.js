@@ -45,7 +45,7 @@ export default function AboutUs() {
             }
 
             .logo{
-                max-width: 75px;
+                max-width: 80px;
             }
             
             .left-logo{

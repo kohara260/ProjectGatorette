@@ -82,7 +82,7 @@ export default function Login() {
         }
 
         .logo{
-            max-width: 75px;
+            max-width: 80px;
         }
 
         .left-logo{
