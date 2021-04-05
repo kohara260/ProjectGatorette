@@ -26,9 +26,9 @@ export default function Login() {
                     <div className="content-tab one active" data-content-tab="overview">
                         <div>
                             <form action="/loggedhome" className="form login">
-                                <label for="username">Username</label>
+                                <label htmlFor="username">Username</label>
                                 <input type="text" name="username"></input>
-                                <label for="password">Password</label>
+                                <label htmlFor="password">Password</label>
                                 <input type="password" name="password"></input>
                                 <input type="submit" value="Submit"></input>
                             </form>
@@ -37,19 +37,19 @@ export default function Login() {
 
                     <div className="content-tab two" data-content-tab="representative-experience">
                             <form action="/loggedhome" className="form signup">
-                            <label for="fname">First Name</label>
+                            <label htmlFor="fname">First Name</label>
                                 <input type="text" name="fname"></input>
 
-                                <label for="lname">Last Name</label>
+                                <label htmlFor="lname">Last Name</label>
                                 <input type="text" name="lname"></input>
                                 
-                                <label for="email">Email</label>
+                                <label htmlFor="email">Email</label>
                                 <input type="email" name="email"></input>
                                 
-                                <label for="username2">Username</label>
+                                <label htmlFor="username2">Username</label>
                                 <input type="text" name="username2"></input>
 
-                                <label for="password2">Password</label>
+                                <label htmlFor="password2">Password</label>
                                 <input type="password" name="password2"></input>
 
                                 <input type="submit" value="Submit"></input>
