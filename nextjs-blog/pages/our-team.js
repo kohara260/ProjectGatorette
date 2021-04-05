@@ -35,6 +35,10 @@ export default function OurTeam() {
                     <p className="name">Hannah</p>
                 </div>
                 <div className="member">
+                    <img src="/bethany.jpg"></img>
+                    <p className="name">Bethany</p>
+                </div>
+                <div className="member">
                     <img src="/morgan.jpg"></img>
                     <p className="name">Morgan</p>
                 </div>
@@ -71,22 +75,18 @@ export default function OurTeam() {
                     <p className="name">Elizabeth</p>
                 </div>
                 <div className="member">
-                    <img src="/julia.jpg"></img>
-                    <p className="name">Julia</p>
-                </div>
-                <div className="member">
                     <img src="/haylee.jpg"></img>
                     <p className="name">Haylee</p>
                 </div>
                 <div className="member">
                 </div>
                 <div className="member">
-                    <img src="/mika.jpg"></img>
-                    <p className="name">Mika</p>
+                    <img src="/julia.jpg"></img>
+                    <p className="name">Julia</p>
                 </div>
                 <div className="member">
-                    <img src="/bethany.jpg"></img>
-                    <p className="name">Bethany</p>
+                    <img src="/mika.jpg"></img>
+                    <p className="name">Mika</p>
                 </div>
                 <div className="member">
                 </div>
