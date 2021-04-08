@@ -112,6 +112,7 @@ export default function OurTeam() {
                 font-size: 50px;
                 color: #f37021;
                 margin: 0 auto;
+                font-family: "Lucida Handwriting", cursive;
                 -webkit-text-stroke-width: 0.5px;
                 -webkit-text-stroke-color: black;
             }
@@ -123,6 +124,7 @@ export default function OurTeam() {
                 font-size: 26px;
                 color: #f37021;
                 margin: 0 auto;
+                font-family: "Lucida Handwriting", cursive;
                 -webkit-text-stroke-width: 0.5px;
                 -webkit-text-stroke-color: black;
             }
