@@ -106,9 +106,11 @@ export default function Home() {
           text-align: center;
           margin-left: auto;
           margin-right: auto;
-          font-size: 60px;
+          font-size: 50px;
           color: #f37021;
           font-style: bold;
+          -webkit-text-stroke-width: 0.5px;
+          -webkit-text-stroke-color: black;
         }
 
       `}</style>
