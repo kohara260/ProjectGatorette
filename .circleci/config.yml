@@ -7,14 +7,17 @@ jobs:
                 executor:
                         name: node/default
                         tag: '10.4'
-
+                working_directory: ~/nextjs-blog
+                        
                 steps:
                         - checkout
-                        - run: npm install mocha
-                        - run: alias mocha='./node_modules/.bin/_mocha'
-                        - run: npm install
+                        - run: cd nextjs-blog; npm install mocha
+                        - run: cd nextjs-blog; alias mocha='./node_modules/.bin/_mocha'
+                        - run: cd nextjs-blog; npm install
+                        - run : ls
                         - run:
-                                command: npm start
+                                command: cd nextjs-blog/; npm run dev
                                 background: true
-                        - run: sleep 5
-                        - run: npm run test
+                        - run: sleep 25
+                        - run: cd nextjs-blog; npm run test
+
