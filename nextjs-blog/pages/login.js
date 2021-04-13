@@ -93,7 +93,7 @@ export default function Login() {
             left: 50%;
             transform: translate(-50%, -35%);
             border-style: solid; 
-            padding: 16px;
+            padding: 30px;
         }
 
         .signup{
