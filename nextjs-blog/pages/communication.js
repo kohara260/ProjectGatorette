@@ -1,23 +1,14 @@
 import Link from 'next/link'
 
-export default function LoggedHome() {
+export default function Communication() {
   return (
     <div className="container">
         <div className="main">
             <div className="left-logo">
-                <img className="logo" className="logo" src="/logo.jpg" alt=""></img>
-                <Link href="/"><a className="button">Sign Out</a></Link>
+                <Link href="/loggedhome"><img className="logo" className="logo" src="/logo.jpg" alt=""></img></Link>
             </div>
             <div className="titleholder">
-                <h1 className="title">Welcome</h1>
-            </div>
-            <div className="options">
-                <div className="comms"> 
-                    <Link href="/communication"><a className="button">Posts and Tricks Blog</a></Link>
-                </div>
-                <div className="calendar">
-                    Practice Schedule and Sign Up
-                </div>
+                <h1 className="title">Share Your Tricks Here</h1>
             </div>
         </div>
 
@@ -26,33 +17,27 @@ export default function LoggedHome() {
             .main{
                 position: absolute;
                 top: 0;
-                bottom: 50%;
+                bottom: 60%;
                 left: 0;
                 right: 0;
                 height: 100vh;
                 width: 100%;
-                background-color: #FFF8DC;
-            }
-
-            .button{
-                text-decoration: none;
-                color: #fff;
-                background-color: #4c87b5;
-                margin-top: 2px;
-                margin-right: 2px;
-                padding: 10px;
-                border-radius: 10px;
-                float: right;
-            }
-
-            .button:hover{
-                background-color: #00529b;
+                background-image: radial-gradient(#FFFAF0 15%, transparent 15%), radial-gradient(#DCDCDC 15%, transparent 5%);
+                background-color: #FFF0F5;
+                background-position: 0 0, 50px 50px;
+                background-size: 100px 100px;
+                height: 100vh;
+                width: 100%;
             }
 
             .logo{
                 max-width: 80px;
             }
-            
+
+            .logo:hover{
+                cursor: pointer;
+            }   
+
             .left-logo{
                 position: relative;
                 top: 0;
@@ -62,47 +47,24 @@ export default function LoggedHome() {
             .titleholder{
                 border-bottom: solid;
                 border-color: #00529b; 
-                max-width: 40%;
+                max-width: 30%;
                 margin: auto;
+                margin-top: -60.5px;
             }
 
             .title{
                 text-align: center;
                 margin-left: auto;
                 margin-right: auto;
-                font-size: 45px;
+                font-size: 30px;
                 color: #f37021;
                 margin: 10px auto;
+                margin-bottom: 2px;
                 -webkit-text-stroke-width: 0.5px;
                 -webkit-text-stroke-color: black;
-            }
-
-            .options{
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                justify-content: space-evenly;
-                justify-items: center;
-                align-content: space-evenly;
-                align-items: center;
-            }
-            .flex-child{
-                flex: 1;
-                border: 2px solid blue;
-                text-align: center;
-            }
-
-            .tricks{
-                margin-left: 50px;
-                margin-right: 20px;
-            }
-
-            .schedule{
-                margin-right: 50px;
             }
 
         `}</style>
     </div>
   )
 }
-
-
