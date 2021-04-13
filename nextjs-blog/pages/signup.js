@@ -111,7 +111,7 @@ export default function SignUp() {
             margin-left: 100px;
             margin-right: 100px;
             margin-bottom: 100px;
-            padding: 16px;
+            padding: 30px;
         }
         
        @media screen and (max-width:900px){

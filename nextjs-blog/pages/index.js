@@ -82,19 +82,7 @@ export default function Home() {
           background-repeat: no-repeat;
           margin-top: 75px
         }
-        
-        @media screen and (max-width:1024px){
-          .main{
-            background-position-y: 58%;
-          }
-        }
-        
-        @media screen and (max-width:900px){
-          .main{
-            background-position-y: 58%;
-          }
-        }
-        
+             
         .bottomhalf{
           height: 50vh;
           display: flex;
@@ -106,12 +94,36 @@ export default function Home() {
           text-align: center;
           margin-left: auto;
           margin-right: auto;
-          font-size: 50px;
+          font-size: 60px;
           color: #f37021;
           font-style: bold;
           -webkit-text-stroke-width: 0.5px;
           -webkit-text-stroke-color: black;
         }
+
+         @media screen and (max-width:1024px){
+          .main{
+            background-position-y: 58%;
+          }
+        }
+
+        @media screen and (max-width:900px){
+          .main{
+            background-position-y: 58%;
+          }
+
+          .bottomhalf, .title{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 30px;
+            color: #f37021;
+            font-style: bold;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: black;
+          }
+        }
+        
 
       `}</style>
 
