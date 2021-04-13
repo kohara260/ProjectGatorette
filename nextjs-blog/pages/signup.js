@@ -72,6 +72,10 @@ export default function SignUp() {
             max-width: 80px;
         }
 
+        .logo:hover{
+            cursor: pointer;
+        }
+
         .left-logo{
             position: absolute;
             top: 0;
