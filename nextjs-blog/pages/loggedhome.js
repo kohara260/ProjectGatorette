@@ -8,16 +8,14 @@ export default function LoggedHome() {
                 <img className="logo" className="logo" src="/logo.jpg" alt=""></img>
                 <Link href="/"><a className="button">Sign Out</a></Link>
             </div>
-            <div className="titleholder">
-                <h1 className="title">Welcome</h1>
-            </div>
-            <div className="options">
-                <div className="comms"> 
-                    <Link href="/communication"><a id="button">Posts and <br></br>Tricks Blog</a></Link>
+            <h1 className="title">Welcome!</h1>        
+            <div className="box">                
+                <div className="half box1">
+                    <Link href="/communication"><a className="button button1">Posts and <br></br> Tricks Blog</a></Link>
                 </div>
-                <div className="calendar">
-                    <a id="button">Calendar and Practice Sign Up</a>
-                </div>
+                <div className="half box2">
+                    <a className="button button2">Practice Calendar  <br></br> and Sign Up</a>
+                </div>                
             </div>
         </div>
 
@@ -40,35 +38,10 @@ export default function LoggedHome() {
                 background-color: #4c87b5;
                 margin-top: 2px;
                 margin-right: 2px;
-                padding: 8px;
-                border-radius: 10px;
-                float: right;
-            }
-
-            .comms{
-                margin-left: 100px;   
-                margin-right: 50px;     
-                text-align: center;
-            }
-
-            .calendar{   
-                margin-left: 50px;
-                margin-right: 100px;    
-                text-align: center;
-            }
-
-
-            #button{
-                text-decoration: none;
-                color: #fff;
-                background-color: #4c87b5;
-                margin-top: 20px;
-                marg
-                margin-right: 2px;
                 padding: 10px;
+                border: solid;
                 border-radius: 10px;
                 float: right;
-                width: 100%;
             }
 
             .button:hover{
@@ -85,33 +58,62 @@ export default function LoggedHome() {
                 top: 0;
                 left: 0;
             } 
-                     
-            .titleholder{
-                border-bottom: solid;
-                border-color: #00529b; 
-                max-width: 40%;
-                margin: auto;
-            }
-
+                        
             .title{
                 text-align: center;
                 margin-left: auto;
                 margin-right: auto;
                 font-size: 45px;
+                border-bottom: solid;
+                border-color: #00529b;
+                max-width: 25%;
                 color: #f37021;
-                margin: 10px auto;
+                margin: 1px auto;
                 -webkit-text-stroke-width: 0.5px;
                 -webkit-text-stroke-color: black;
             }
 
-            .options{
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                justify-content: space-evenly;
-                justify-items: center;
-                align-content: space-evenly;
-                align-items: center;
+            .box{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-top:30px;
             }
+
+            .half{
+                width: 50%;
+                border: dotted;
+                border-width: medium;
+                border-color: #f37021;
+            }
+    
+            .box1{
+                background: url("/comm_pic.jpg") no-repeat;
+                background-size: cover;
+                text-align: center;
+                max-width: 300px;
+                float: left;
+                height: 300px;  
+                margin-right: 75px;            
+             }
+            
+            .box2{
+                background: url("/practice_pic.jpg") no-repeat;
+                background-size: cover;
+                text-align: center;
+                max-width: 300px;
+                float: right;
+                height: 300px;
+                margin-left: 75px;
+            }
+
+            .button1{
+                transform: translate(-98px, 22px);
+            }
+
+            .button2{
+                transform: translate(-78px, 22px);
+            }            
 
         `}</style>
     </div>
