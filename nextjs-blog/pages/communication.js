@@ -13,10 +13,10 @@ export default function LoggedHome() {
             </div>
             <div className="options">
                 <div className="comms"> 
-                    <Link href="/communication"><a id="button">Posts and <br></br>Tricks Blog</a></Link>
+                    <Link href="/communication"><a className="button">Posts and Tricks Blog</a></Link>
                 </div>
                 <div className="calendar">
-                    <a id="button">Calendar and Practice Sign Up</a>
+                    Practice Schedule and Sign Up
                 </div>
             </div>
         </div>
@@ -40,40 +40,13 @@ export default function LoggedHome() {
                 background-color: #4c87b5;
                 margin-top: 2px;
                 margin-right: 2px;
-                padding: 8px;
-                border-radius: 10px;
-                float: right;
-            }
-
-            .comms{
-                margin-left: 100px;   
-                margin-right: 50px;     
-                text-align: center;
-            }
-
-            .calendar{   
-                margin-left: 50px;
-                margin-right: 100px;    
-                text-align: center;
-            }
-
-
-            #button{
-                text-decoration: none;
-                color: #fff;
-                background-color: #4c87b5;
-                margin-top: 20px;
-                marg
-                margin-right: 2px;
                 padding: 10px;
                 border-radius: 10px;
                 float: right;
-                width: 100%;
             }
 
             .button:hover{
                 background-color: #00529b;
-                cursor: pointer;
             }
 
             .logo{
@@ -111,6 +84,20 @@ export default function LoggedHome() {
                 justify-items: center;
                 align-content: space-evenly;
                 align-items: center;
+            }
+            .flex-child{
+                flex: 1;
+                border: 2px solid blue;
+                text-align: center;
+            }
+
+            .tricks{
+                margin-left: 50px;
+                margin-right: 20px;
+            }
+
+            .schedule{
+                margin-right: 50px;
             }
 
         `}</style>

@@ -57,13 +57,12 @@ export default function AboutUs() {
             }
 
             .bottomhalf{
-                background-image: url("/aboutus_pic.jpg");
-                height: 55vh;
-                background-size: cover;
-                background-position-y: 42.5%;
-                background-repeat: no-repeat;
+                background: url("/aboutus1.jpg") bottom left no-repeat, url("/aboutus2.jpg") bottom center no-repeat, url("/aboutus3.jpg") bottom right no-repeat;
+                background-color: #E3E4FA;
+                background-size: 33.3%, 33.5%, 33.3%;
+                background-position-y: 90%, 50%, 55%;
                 margin-top: 45vh;
-                
+                height: 55vh;                
               }
               
               @media screen and (max-width:1024px){
@@ -76,17 +75,22 @@ export default function AboutUs() {
                 .main{
                   height: 50vh;
                 }
+                .title{
+                  margin-top: 22px;
+                }
                 .body{
-                  font-size: 18px;
+                  margin-top: 14px;
+                  font-size: 14px;
                   margin-left: 30px;
                   margin-right: 30px;
                 }
                 .bottomhalf{
+                  background-image: url("/aboutus_pic.jpg");
                   height: 50vh;
                   background-size: cover;
                   background-repeat: no-repeat;
                   margin-top: 50vh;
-                  background-position-y: 57%;
+                  background-position-y: 24%;
                 }
               }
 
