@@ -132,6 +132,10 @@ export default function OurTeam() {
             .logo{
                 max-width: 80px;
             }
+
+            .logo:hover{
+                cursor: pointer;
+            }
             
             .left-logo{
                 display:flex;

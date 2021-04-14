@@ -54,6 +54,10 @@ export default function Login() {
             max-width: 80px;
         }
 
+        .logo:hover{
+            cursor: pointer;
+        }
+
         .left-logo{
             position: fixed;
             top: 0;

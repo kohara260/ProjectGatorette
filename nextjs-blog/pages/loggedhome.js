@@ -9,11 +9,11 @@ export default function LoggedHome() {
                 <Link href="/"><a className="button">Sign Out</a></Link>
             </div>
             <h1 className="title">Welcome!</h1>        
-            <div className="box">                
-                <div className="half box1">
+            <div className="holder">                
+                <div className="half holder1">
                     <Link href="/communication"><a className="button button1">Posts and <br></br> Tricks Blog</a></Link>
                 </div>
-                <div className="half box2">
+                <div className="half holder2">
                     <a className="button button2">Practice Calendar  <br></br> and Sign Up</a>
                 </div>                
             </div>
@@ -73,7 +73,7 @@ export default function LoggedHome() {
                 -webkit-text-stroke-color: black;
             }
 
-            .box{
+            .holder{
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
@@ -87,7 +87,7 @@ export default function LoggedHome() {
                 border-color: #f37021;
             }
     
-            .box1{
+            .holder1{
                 background: url("/comm_pic.jpg") no-repeat;
                 background-size: cover;
                 text-align: center;
@@ -97,7 +97,7 @@ export default function LoggedHome() {
                 margin-right: 75px;            
              }
             
-            .box2{
+            .holder2{
                 background: url("/practice_pic.jpg") no-repeat;
                 background-size: cover;
                 text-align: center;

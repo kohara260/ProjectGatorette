@@ -50,6 +50,10 @@ export default function AboutUs() {
             .logo{
                 max-width: 80px;
             }
+
+            .logo:hover{
+                cursor: pointer;
+            }
             
             .left-logo{
                 display:flex;

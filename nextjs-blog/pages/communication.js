@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function LoggedHome() {
+export default function Communication() {
   return (
     <div className="container">
         <div className="main">
@@ -68,5 +68,3 @@ export default function LoggedHome() {
     </div>
   )
 }
-
-
