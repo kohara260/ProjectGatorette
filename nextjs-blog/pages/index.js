@@ -22,14 +22,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <div className="bottomhalf">
           <h1 className="title">University of Florida <br></br> Gatorettes</h1>
         </div>
       </main>
-
-      <footer>
-      </footer>
 
       <style jsx>{`
 
@@ -123,7 +119,6 @@ export default function Home() {
             -webkit-text-stroke-color: black;
           }
         }
-        
 
       `}</style>
 
