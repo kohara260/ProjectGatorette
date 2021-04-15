@@ -1,3 +1,5 @@
+// Referenced https://www.w3schools.com/howto/howto_css_login_form.asp for help with creating Login form
+
 import Head from 'next/head'
 import Link from 'next/link'
 
