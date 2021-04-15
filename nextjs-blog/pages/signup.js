@@ -1,3 +1,5 @@
+// Referenced https://www.w3schools.com/howto/howto_css_signup_form.asp for help with creating Sign Up form
+
 import Head from 'next/head'
 import Link from 'next/link'
 
@@ -13,7 +15,6 @@ export default function SignUp() {
             </div>
             <h1 className="title">Sign Up</h1>
             <p className="instructions">Fill out this form to create an account</p>
-
             <form action="/loggedhome">
                 <div className="holder">
                     <label for="fname"><b>First Name</b></label>
