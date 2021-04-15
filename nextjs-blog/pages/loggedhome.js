@@ -1,3 +1,6 @@
+// Referenced https://coder-coder.com/display-divs-side-by-side/ for help on how to 
+// place two divs side-by-side 
+
 import Link from 'next/link'
 
 export default function LoggedHome() {
