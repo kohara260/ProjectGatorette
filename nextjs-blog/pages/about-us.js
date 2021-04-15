@@ -79,15 +79,18 @@ export default function AboutUs() {
                 .main{
                   height: 50vh;
                 }
+
                 .title{
                   margin-top: 22px;
                 }
+
                 .body{
                   margin-top: 14px;
                   font-size: 14px;
                   margin-left: 30px;
                   margin-right: 30px;
                 }
+
                 .bottomhalf{
                   background-image: url("/aboutus_pic.jpg");
                   height: 50vh;
