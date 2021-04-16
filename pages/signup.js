@@ -84,10 +84,6 @@ export default function SignUp() {
             float: left;
         } 
 
-        .holder{
-            background-color: #87cefa;
-        }
-
         input[type=text], input[type=email], input[type=password] {
             width: 100%;
             padding: 12px 20px;
@@ -115,6 +111,7 @@ export default function SignUp() {
         }
         
         .holder {
+            background-color: #87cefa;
             border: solid;
             margin-top: 9px;
             margin-left: 100px;
