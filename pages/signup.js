@@ -15,7 +15,7 @@ export default function SignUp() {
             </div>
             <h1 className="title">Sign Up</h1>
             <p className="instructions">Fill out this form to create an account</p>
-            <form action="/loggedhome" method="post>
+            <form action="/loggedhome" method="post">
                 <div className="holder">
                     <label for="fname"><b>First Name</b></label>
                     <input type="text" placeholder="First Name" name="fname" required></input>
