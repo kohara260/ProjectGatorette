@@ -15,7 +15,7 @@ export default function SignUp() {
             </div>
             <h1 className="title">Sign Up</h1>
             <p className="instructions">Fill out this form to create an account</p>
-            <form action="/loggedhome" method="post">
+            <form action="/loggedhome">
                 <div className="holder">
                     <label for="fname"><b>First Name</b></label>
                     <input type="text" placeholder="First Name" name="fname" required></input>
@@ -83,6 +83,10 @@ export default function SignUp() {
             left: 0;
             float: left;
         } 
+
+        .holder{
+            background-color: #87cefa;
+        }
 
         input[type=text], input[type=email], input[type=password] {
             width: 100%;
