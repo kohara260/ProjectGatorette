@@ -119,11 +119,11 @@ export default function LoggedHome() {
             }
 
             .button1{
-                transform: translate(-91px, 22px);
+                transform: translate(-96px, 22px);
             }
 
             .button2{
-                transform: translate(-70px, 22px);
+                transform: translate(-76px, 22px);
             }            
 
         `}</style>
