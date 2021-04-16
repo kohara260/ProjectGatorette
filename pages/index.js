@@ -18,7 +18,7 @@ export default function Home() {
             <div className="right-menu">
               <Link href="/about-us"><a className="button">About Us</a></Link>
               <Link href="/our-team"><a className="button">Our Team</a></Link>
-              <Link href="/login"><a className="button">Login/Signup</a></Link>
+              <Link href="/login"><a className="button">Login/Sign Up</a></Link>
             </div>
           </div>
         </div>
