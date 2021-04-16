@@ -12,7 +12,7 @@ export default function LoggedHome() {
         <div className="main">
             <div className="left-logo">
                 <img className="logo" className="logo" src="/logo.jpg" alt=""></img>
-                <Link href="/"><a className="button">Sign Out</a></Link>
+                <Link href="/"><a className="button signout">Sign Out</a></Link>
             </div>
             <h1 className="title">Welcome!</h1>        
             <div className="holder">                
@@ -42,8 +42,6 @@ export default function LoggedHome() {
                 text-decoration: none;
                 color: #fff;
                 background-color: #4c87b5;
-                margin-top: 2px;
-                margin-right: 2px;
                 padding: 10px;
                 border: solid;
                 border-radius: 10px;
@@ -113,12 +111,19 @@ export default function LoggedHome() {
                 margin-left: 75px;
             }
 
+             .signout{
+                padding: 12px;
+                font-size: 18px;
+                margin-top: 4px;
+                margin-right: 4px;
+            }
+
             .button1{
-                transform: translate(-98px, 22px);
+                transform: translate(-91px, 22px);
             }
 
             .button2{
-                transform: translate(-78px, 22px);
+                transform: translate(-70px, 22px);
             }            
 
         `}</style>
