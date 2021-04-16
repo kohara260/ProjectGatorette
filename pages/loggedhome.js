@@ -8,6 +8,8 @@ export default function LoggedHome() {
     <div className="container">
         <head>
             <title>Welcome</title>
+            <meta http-equiv="Pragma" content="no-cache"></meta>
+            <meta http-equiv="Expires" content="-1"></meta>
         </head>
         <div className="main">
             <div className="left-logo">
