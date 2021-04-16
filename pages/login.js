@@ -66,10 +66,6 @@ export default function Login() {
             left: 0;
         }   
 
-        .holder{
-            background-color: #87cefa;
-        }
-
         input[type=text], input[type=password] {
             width: 100%;
             padding: 12px 20px;
@@ -97,6 +93,7 @@ export default function Login() {
         }
 
         .holder {
+            background-color: #87cefa;
             margin: 0;
             position: absolute;
             top: 50%;
