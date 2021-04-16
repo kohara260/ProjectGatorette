@@ -6,6 +6,11 @@ import Link from 'next/link'
 export default function LoggedHome() {
   return (
     <div className="container">
+        <head>
+            <title>Welcome</title>
+            <meta http-equiv="Pragma" content="no-cache"></meta>
+            <meta http-equiv="Expires" content="-1"></meta>
+        </head>
         <div className="main">
             <div className="left-logo">
                 <img className="logo" className="logo" src="/logo.jpg" alt=""></img>
@@ -122,5 +127,3 @@ export default function LoggedHome() {
     </div>
   )
 }
-
-
