@@ -20,7 +20,7 @@ export default function LoggedHome() {
                     <Link href="/communication"><a className="button button1">Posts and <br></br> Tricks Blog</a></Link>
                 </div>
                 <div className="half holder2">
-                    <a className="button button2">Practice Calendar</a>
+                    <a className="button button2">Practice <br></br> Calendar</a>
                 </div>                
             </div>
         </div>
