@@ -40,11 +40,11 @@ export default function AboutUs() {
 
             .body{
                 text-align: center;
-                font-size: 14.7px;
+                font-size: 15.8px;
                 font-family: "Verdana", sans-serif;
                 margin-left: 100px;
                 margin-right: 100px;
-                margin-top: 26px;
+                margin-top: 20px;
             }
 
             .logo{
