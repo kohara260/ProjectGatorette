@@ -123,7 +123,7 @@ export default function LoggedHome() {
             }
 
             .button2{
-                transform: translate(-76px, 22px);
+                transform: translate(-106px, 28px);
             }            
 
         `}</style>
