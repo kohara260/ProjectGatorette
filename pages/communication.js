@@ -25,12 +25,7 @@ export default function Communication() {
                 right: 0;
                 height: 100vh;
                 width: 100%;
-                background-image: radial-gradient(#FFFAF0 15%, transparent 15%), radial-gradient(#DCDCDC 15%, transparent 5%);
-                background-color: #FFF0F5;
-                background-position: 0 0, 50px 50px;
-                background-size: 100px 100px;
-                height: 100vh;
-                width: 100%;
+                background-color: #87CEFA;
             }
 
             .logo{
