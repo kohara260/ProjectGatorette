@@ -1,6 +1,3 @@
-// Referenced https://dev.to/clairecodes/how-to-create-a-polka-dot-background-with-css-23m0
-// for implementing polka dot background
-
 import Link from 'next/link'
 
 export default function Communication() {
