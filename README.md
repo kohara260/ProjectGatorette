@@ -1,6 +1,6 @@
 # Project Gatorette
 
-Project Gatorette was created to help bring attention to the Gatorettes baton team by informing users on who the Gatorettes are, what they do, who is on the team, and how to stay up-to-date with the team through their social media. 
+Project Gatorette is an informational website developed to raise awareness of the University of Florida's baton team, the Gatorettes. The website details who the Gatorettes are, what they do, who is on the team, and how to stay up-to-date with them through their social media. 
 
 ## Setup from the command line
 1. Clone this repository
